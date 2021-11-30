@@ -1,0 +1,192 @@
+﻿Build1=Default,b4a.example
+Build2=Simlog,com.simlog
+File1=ba.png
+File10=infografis.png
+File11=infografiswhite.png
+File12=inventaris.png
+File13=inventariswhite.png
+File14=kodefikasi.png
+File15=kodefikasiwhite.png
+File16=Layout.bal
+File17=LayoutDrawer.bal
+File18=LayoutISICLVBarangExisting.bal
+File19=LayoutISIDashboard.bal
+File2=BarangExisting.png
+File20=LayoutisiListPermintaanBarang.bal
+File21=LayoutisipermintaanInventaris.bal
+File22=LayoutISISidebar.bal
+File23=LayoutisiTablePermintaan.bal
+File24=LayoutMenu.bal
+File25=LayoutNewBarang.bal
+File26=LayoutScvNewBarang.bal
+File27=LayoutTrackingStatus.bal
+File28=list_icon.png
+File29=ListPermintaanBarangInventaris.bal
+File3=BarangExistingWhite.png
+File30=path32623.png
+File31=pengadaanbarang.png
+File32=pengadaanbarangwhite.png
+File33=Permintaan_Inventaris.bal
+File34=permintaanBarang.png
+File35=permintaanBarangWhite.png
+File36=poppins-regular.ttf
+File37=profileuser.png
+File38=profileuserwhite.png
+File39=Register.bal
+File4=barangkeluar.png
+File40=Splash.bal
+File41=stockbarang.png
+File42=sukses.png
+File43=sukucadang.png
+File44=sukucadangwhite.png
+File45=trackingstatus.png
+File46=trackingstatuswhite.png
+File47=upload_barang1.png
+File48=upload_barang2.png
+File5=barangmasuk.png
+File6=checked.png
+File7=ForgotPassword.bal
+File8=home.png
+File9=home_white.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=appcompat
+Library10=sweetalertdialog
+Library11=xcustomlistview
+Library12=timelineview
+Library2=b4xdrawer
+Library3=core
+Library4=javaobject
+Library5=json
+Library6=okhttputils2
+Library7=reflection
+Library8=runtimepermissions
+Library9=scrollview2d
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~'CreateResourceFromFile(Macro, Themes.LightTheme)~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">~\n~        <item name="colorPrimary">#FF989FFE</item>~\n~        <item name="colorPrimaryDark">#FF989FFE</item>~\n~        <item name="colorAccent">#212121</item>~\n~        <item name="windowNoTitle">true</item>~\n~        <item name="windowActionBar">false</item>~\n~    </style>~\n~</resources>~\n~)~\n~SetApplicationAttribute(android:usesCleartextTraffic, "true")~\n~AddManifestText(~\n~<uses-permission~\n~  android:name="android.permission.WRITE_EXTERNAL_STORAGE"~\n~  android:maxSdkVersion="19" />~\n~)~\n~'End of default text.~\n~
+Module1=clsGoogleChart
+Module10=PermintaanBarang
+Module11=Register
+Module12=Starter
+Module13=TrackingStatus
+Module2=clsPB
+Module3=ForgotPasswoord
+Module4=general
+Module5=Home
+Module6=ListPermintaanBarang
+Module7=Login
+Module8=NewBarangExisting
+Module9=PengadaanBarang
+NumberOfFiles=48
+NumberOfLibraries=12
+NumberOfModules=13
+Version=11
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Simlog
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+#AdditionalRes: ..\res.MaterialIshProgress
+#AdditionalRes: ..\res.SweetAlertDialog
+#AdditionalJar: com.android.support:support-v4
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	'Private xui As XUI
+	Private Timer1 As Timer
+	Private rp As RuntimePermissions
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	For Each permission As String In Array(rp.PERMISSION_WRITE_EXTERNAL_STORAGE)
+		rp.CheckAndRequest(permission)
+		Wait For Activity_PermissionResult (permission As String, Result As Boolean)
+		If Result = False Then
+			ToastMessageShow("No permission!", True)
+			Activity.Finish
+			Return
+		End If
+	Next
+	Activity.LoadLayout("Splash")
+	Timer1.Initialize("Timer1",3000)
+	Timer1.Enabled=True
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub Timer1_tick
+	Timer1.Enabled=False
+	StartActivity(Login)
+	Activity.Finish
+End Sub
+
+
+
